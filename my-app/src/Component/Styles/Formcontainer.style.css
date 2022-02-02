@@ -1,0 +1,72 @@
+.form-container {
+    display: none;
+}
+.form-container.show-modal {
+    display: block;
+    background-color: #fff;
+    box-shadow:  2px 3px 5px black;
+    color: black;
+    padding: 2rem;
+    padding-right: 0;
+    width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    top: 35%;
+    right: 5%;
+}
+
+label {
+    font-weight: 700;
+    font-family: Mulish;
+    text-transform: uppercase;
+}
+
+input {
+    border: 1px solid #8b6000;
+    border-radius: 4px;
+    margin-top: .7rem;
+    padding: .2rem 0 .7rem .2rem;
+    display: block;
+    width: 90%;
+}
+input:focus, input:active {
+    outline: 0;
+}
+.show-form-btn {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+
+}
+.show-form-btn button {
+    margin-top: 2rem;
+    padding: .5rem 1rem;
+    border: 1px solid #8b6000;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: Mulish;
+}
+
+.add-btn {
+    width: 90%;
+    margin-top: 2rem;
+    padding: .5rem 0;
+    border: 1px solid #8b6000;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: Mulish;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .form-container.show-modal {
+        top: 30%;
+    }
+}
+@media only screen and (max-width: 100px) {
+    .form-container.show-modal {
+        top: 50%;
+    }
+}

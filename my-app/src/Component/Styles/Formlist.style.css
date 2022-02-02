@@ -1,0 +1,10 @@
+.item {
+    padding: 1rem 2rem 0 0;
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 1rem auto;
+}
+.flex-item-2 {
+    color: red;
+}
